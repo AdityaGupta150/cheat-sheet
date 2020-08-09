@@ -189,6 +189,8 @@ int main() {
 }
 ```
 
+**You can simply try the code in this README directly on [cpp.sh](http://cpp.sh), just include `bits/stdc++.h` or the following includes**
+
 #### 1.1.1 Optional include list
 
 > Use it when there is no `bits/stdc++.h`
