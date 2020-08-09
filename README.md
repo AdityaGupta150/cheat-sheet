@@ -1,40 +1,20 @@
    ACM-ICPC Cheat Sheet
 ==========================
 
-    Orange Juice 情報
+    Orange Juice Information
 
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-![balloon](https://assets-cdn.github.com/images/icons/emoji/unicode/1f388.png?v5)
-
-![fried_shrimp](https://assets-cdn.github.com/images/icons/emoji/unicode/1f364.png?v5)
-![sushi](https://assets-cdn.github.com/images/icons/emoji/unicode/1f363.png?v5)
-![fish_cake](https://assets-cdn.github.com/images/icons/emoji/unicode/1f365.png?v5)
-![rice_ball](https://assets-cdn.github.com/images/icons/emoji/unicode/1f359.png?v5)
-![rice_cracker](https://assets-cdn.github.com/images/icons/emoji/unicode/1f358.png?v5)
-![stew](https://assets-cdn.github.com/images/icons/emoji/unicode/1f372.png?v5)
-![oden](https://assets-cdn.github.com/images/icons/emoji/unicode/1f362.png?v5)
-![hamburger](https://assets-cdn.github.com/images/icons/emoji/unicode/1f354.png?v5)
-![doughnut](https://assets-cdn.github.com/images/icons/emoji/unicode/1f369.png?v5)
-![cookie](https://assets-cdn.github.com/images/icons/emoji/unicode/1f36a.png?v5)
-
+🎈🎈🎈🎈🎈🎈🎈🎈🎈
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+<!-- DON'T EDIT THIS TABLE OF CONTENTS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  _generated with [DocToc](https://github.com/thlorenz/doctoc)_
 
 - [1. Basic](#1-basic)
   - [1.1 C++ Solution Template](#11-c-solution-template)
     - [1.1.1 Optional include list](#111-optional-include-list)
   - [1.2 Strings](#12-strings)
     - [1.2.1 C++ String](#121-c-string)
-      - [read one line](#read-one-line)
+      - [Read a String Till First Space](#read-a-string-till-first-space)
+      - [Read One Line With Spaces till \n or EOF](#read-one-line-with-spaces-till-%5Cn-or-eof)
       - [Convert to char array](#convert-to-char-array)
     - [1.2.2 C String (Character Array)](#122-c-string-character-array)
       - [Input C String](#input-c-string)
@@ -101,13 +81,13 @@
   - [3.2 Dynamic Programming](#32-dynamic-programming)
     - [3.2.1 Longest Increasing Subsequence (LIS)](#321-longest-increasing-subsequence-lis)
   - [3.3 Divide and Conquer](#33-divide-and-conquer)
-    - [3.3.1 binary search](#331-binary-search)
+    - [3.3.1 Binary search](#331-binary-search)
   - [3.4 Search](#34-search)
     - [3.4.2 双向 BFS](#342-%E5%8F%8C%E5%90%91-bfs)
     - [3.4.3 从终点开始搜](#343-%E4%BB%8E%E7%BB%88%E7%82%B9%E5%BC%80%E5%A7%8B%E6%90%9C)
     - [3.4.4 迭代加深搜索 (binary increase/decrease)](#344-%E8%BF%AD%E4%BB%A3%E5%8A%A0%E6%B7%B1%E6%90%9C%E7%B4%A2-binary-increasedecrease)
   - [3.5 Brute Force](#35-brute-force)
-    - [3.5.1 子集生成](#351-%E5%AD%90%E9%9B%86%E7%94%9F%E6%88%90)
+    - [3.5.1 Generating subsets](#351-generating-subsets)
 - [4. String](#4-string)
   - [4.1 KMP](#41-kmp)
   - [4.2 Boyer-Moore](#42-boyer-moore)
@@ -118,23 +98,23 @@
     - [5.2.1 Prim's](#521-prims)
     - [5.2.2 Kruskal](#522-kruskal)
   - [5.3 Shortest Path](#53-shortest-path)
-    - [5.3.1 任意两点](#531-%E4%BB%BB%E6%84%8F%E4%B8%A4%E7%82%B9)
-    - [5.3.2 Bellman–Ford](#532-bellman%E2%80%93ford)
+    - [5.3.1 Between any two points](#531-between-any-two-points)
+    - [5.3.2 Bellman–Ford](#532-bellmanford)
     - [5.3.3 SPFA](#533-spfa)
     - [5.3.4 Dijkstra](#534-dijkstra)
   - [5.4 Maximum Matching](#54-maximum-matching)
     - [5.4.1 on Bipartite Graph 二分图](#541-on-bipartite-graph-%E4%BA%8C%E5%88%86%E5%9B%BE)
-      - [5.4.1.1 Hungarian algorithm 匈牙利算法](#5411-hungarian-algorithm-%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95)
-      - [5.4.1.2 Hopcroft–Karp Algorithm](#5412-hopcroft%E2%80%93karp-algorithm)
+      - [5.4.1.1 Hungarian algorithm](#5411-hungarian-algorithm)
+      - [5.4.1.2 Hopcroft–Karp Algorithm](#5412-hopcroftkarp-algorithm)
     - [5.4.2 on General Graph](#542-on-general-graph)
       - [5.4.2.1 Blossom Algorithm](#5421-blossom-algorithm)
-  - [5.5 Maximum Flow Problem 最大流](#55-maximum-flow-problem-%E6%9C%80%E5%A4%A7%E6%B5%81)
+  - [5.5 Maximum Flow Problem](#55-maximum-flow-problem)
     - [5.5.1 Dinic](#551-dinic)
     - [5.5.2 Improved SAP + Gap Optimization](#552-improved-sap--gap-optimization)
     - [5.5.3 Minimum-Cost Maximum-Flow](#553-minimum-cost-maximum-flow)
     - [5.5.4 More Applications and Properties](#554-more-applications-and-properties)
   - [5.6 强连通分量 图的 割点, 桥, 双连通分支](#56-%E5%BC%BA%E8%BF%9E%E9%80%9A%E5%88%86%E9%87%8F-%E5%9B%BE%E7%9A%84-%E5%89%B2%E7%82%B9-%E6%A1%A5-%E5%8F%8C%E8%BF%9E%E9%80%9A%E5%88%86%E6%94%AF)
-  - [5.7 Topological Sort / 拓扑排序](#57-topological-sort--%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F)
+  - [5.7 Topological Sort](#57-topological-sort)
   - [5.8 Euler Cycle/Path, Hamilton Cycle/Path](#58-euler-cyclepath-hamilton-cyclepath)
   - [5.9 find negative (weight) Cycle on a graph](#59-find-negative-weight-cycle-on-a-graph)
 - [6. Number + Mathematics](#6-number--mathematics)
@@ -143,34 +123,34 @@
     - [6.1.2 The Java Approach](#612-the-java-approach)
   - [6.2 Matrix](#62-matrix)
   - [6.3 Number Theory](#63-number-theory)
-    - [6.3.1 欧拉函数 ?](#631-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0-)
-    - [6.3.2 欧几里得算法 / gcd](#632-%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95--gcd)
-    - [6.3.3 扩展欧几里得算法](#633-%E6%89%A9%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95)
-    - [6.3.4 求解不定方程](#634-%E6%B1%82%E8%A7%A3%E4%B8%8D%E5%AE%9A%E6%96%B9%E7%A8%8B)
-    - [6.3.5 求解模线性方程（线性同余方程）](#635-%E6%B1%82%E8%A7%A3%E6%A8%A1%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%EF%BC%88%E7%BA%BF%E6%80%A7%E5%90%8C%E4%BD%99%E6%96%B9%E7%A8%8B%EF%BC%89)
-    - [6.3.6 求解模的逆元](#636-%E6%B1%82%E8%A7%A3%E6%A8%A1%E7%9A%84%E9%80%86%E5%85%83)
-    - [6.3.7 中国剩余定理](#637-%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86)
-    - [6.3.8 最小公倍数](#638-%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0)
-    - [6.3.9 分解质因数](#639-%E5%88%86%E8%A7%A3%E8%B4%A8%E5%9B%A0%E6%95%B0)
-    - [6.3.10 因数个数](#6310-%E5%9B%A0%E6%95%B0%E4%B8%AA%E6%95%B0)
-    - [6.3.11 素数判定](#6311-%E7%B4%A0%E6%95%B0%E5%88%A4%E5%AE%9A)
-      - [6.3.11.1 Miller Rabin Primality Test](#63111-miller-rabin-primality-test)
-    - [6.3.12 进制转换](#6312-%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2)
+    - [6.3.1 Euler Function](#631-euler-function)
+    - [6.3.2 Euclid Algorithm / gcd](#632-euclid-algorithm--gcd)
+    - [6.3.3 Extended Euclidean Algorithm](#633-extended-euclidean-algorithm)
+    - [6.3.4 Solve indefinite Equations](#634-solve-indefinite-equations)
+    - [6.3.5 Solve Modular Linear Equations (Linear congruence equation)](#635-solve-modular-linear-equations-linear-congruence-equation)
+    - [6.3.6 Solve the inverse element of the module](#636-solve-the-inverse-element-of-the-module)
+    - [6.3.7 Chinese remainder theorem](#637-chinese-remainder-theorem)
+    - [6.3.8 Decompose prime factors](#638-decompose-prime-factors)
+    - [6.3.9 Number of factors](#639-number-of-factors)
+    - [6.3.10 Prime number judgment](#6310-prime-number-judgment)
+      - [6.3.10.1 Miller Rabin Primality Test](#63101-miller-rabin-primality-test)
+    - [6.3.11.1 进制转换](#63111-%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2)
+    - [6.3.12.2 Base conversion](#63122-base-conversion)
     - [6.3.13 A / C](#6313-a--c)
-    - [6.3.14 质数表](#6314-%E8%B4%A8%E6%95%B0%E8%A1%A8)
+    - [6.3.14 Prime Number Table](#6314-prime-number-table)
     - [6.3.15 Fast Exponention](#6315-fast-exponention)
     - [6.3.16 Fast Fourier Transform FFT](#6316-fast-fourier-transform-fft)
-  - [6.4 Game Theory 博弈论](#64-game-theory-%E5%8D%9A%E5%BC%88%E8%AE%BA)
+  - [6.4 Game Theory](#64-game-theory)
     - [6.4.1 Impartial Combinatorial Game](#641-impartial-combinatorial-game)
       - [6.4.1.1 Nim Game](#6411-nim-game)
-      - [6.4.1.1 Composite Games – Sprague-Grundy Theorem and Nim Value](#6411-composite-games-%E2%80%93-sprague-grundy-theorem-and-nim-value)
+      - [6.4.1.1 Composite Games – Sprague-Grundy Theorem and Nim Value](#6411-composite-games--sprague-grundy-theorem-and-nim-value)
 - [7. Geometry](#7-geometry)
   - [7.1 2-Dimension Space](#71-2-dimension-space)
     - [7.1.1 Template of Point](#711-template-of-point)
-    - [7.1.2 向量点乘 叉乘](#712-%E5%90%91%E9%87%8F%E7%82%B9%E4%B9%98-%E5%8F%89%E4%B9%98)
+    - [7.1.2 Vector dot product cross product](#712-vector-dot-product-cross-product)
     - [7.1.3 dot product](#713-dot-product)
     - [7.1.4 cross product](#714-cross-product)
-    - [7.1.5 直线公式](#715-%E7%9B%B4%E7%BA%BF%E5%85%AC%E5%BC%8F)
+    - [7.1.5 Straight Line Formula](#715-straight-line-formula)
     - [7.1.6 Convex Hull](#716-convex-hull)
       - [Gift Wrapping](#gift-wrapping)
       - [QuickHull](#quickhull)
@@ -178,7 +158,7 @@
 - [8. Tricks + Miscellaneous](#8-tricks--miscellaneous)
   - [8.1 Bit Manipulation](#81-bit-manipulation)
   - [8.1 Cantor Expansion / Reverse Cantor Expansion](#81-cantor-expansion--reverse-cantor-expansion)
-  - [8.2 pass 2-D array](#82-pass-2-d-array)
+  - [8.2 Pass 2-D array](#82-pass-2-d-array)
   - [8.3 Binary Display](#83-binary-display)
   - [8.4 Fast Log](#84-fast-log)
   - [8.5 Squre Root](#85-squre-root)
@@ -205,7 +185,7 @@ using namespace std;
 
 int main() {
     ios::sync_with_stdio(false);
-    
+
 }
 ```
 
@@ -287,13 +267,15 @@ strcpy(target, cppstr.c_str());
 
 ##### Input C String
 
-gets()
+Use fgets(char*, length, stdin) //for taking input from stdin
+
+_gets() was deprecated in C++11, and removed in C++14, due to its flaws. And some C implementations have it, but most will give warning_
 
 > Reads characters from the standard input (stdin) and stores them as a C string into str until a newline character or the end-of-file is reached.
 
 ```c++
 char s[12];
-gets(s);
+fgets(s, 12, stdin);
 cout << "\"" << s << "\"" << ", length: " << strlen(s) << endl;
 ```
 
@@ -337,8 +319,8 @@ Example
 
 ```C++
 // next_permutation example
-#include <iostream>     // std::cout
-#include <algorithm>    // std::next_permutation, std::sort
+#include <iostream>   // std::cout
+#include <algorithm>  // std::next_permutation, std::sort
 
 int main () {
   int myints[] = {1,2,3};
@@ -409,10 +391,10 @@ std::iter_swap(myints + 3,myvector.begin() + 2); //   myints:  99  20  30 [99] 5
 
 #### 1.3.5 Heap
 
-* make_heap: Rearranges the elements in the range [first,last) in such a way that they form a heap. The element with the highest value is always pointed by first.
-* pop_heap: Rearranges the elements in the heap range [first,last) in such a way that the part considered a heap is shortened by one: The element with the highest value is moved to (last-1).
-* push_heap: Given a heap in the range [first,last-1), this function extends the range considered a heap to [first,last) by placing the value in (last-1) into its corresponding location within it.
-* sort_heap: Sorts the elements in the heap range [first,last) into ascending order.
+- make_heap: Rearranges the elements in the range [first,last) in such a way that they form a heap. The element with the highest value is always pointed by first.
+- pop_heap: Rearranges the elements in the heap range [first,last) in such a way that the part considered a heap is shortened by one: The element with the highest value is moved to (last-1).
+- push_heap: Given a heap in the range [first,last-1), this function extends the range considered a heap to [first,last) by placing the value in (last-1) into its corresponding location within it.
+- sort_heap: Sorts the elements in the heap range [first,last) into ascending order.
 
 Usage
 
@@ -461,10 +443,10 @@ Member function
 
 ```c++
 struct Edge {
-   int from, to, weight;
-	bool operator<(Edge that) const {
-        return weight > that.weight;
-    }
+  int from, to, weight;
+  bool operator<(Edge that) const {
+    return weight > that.weight;
+  }
 };
 ```
 
@@ -472,10 +454,10 @@ verbal version
 
 ```c++
 struct Edge {
-   int from, to, weight;
-	bool operator<(const Edge& that) const {
-        return this->weight > that.weight;
-    }
+  int from, to, weight;
+  bool operator<(const Edge& that) const {
+    return this->weight > that.weight;
+  }
 };
 ```
 
@@ -531,7 +513,7 @@ A container is a holder object that stores a collection of other objects (its el
 template < class Key,                                     // map::key_type
            class T,                                       // map::mapped_type
            class Compare = less<Key>,                     // map::key_compare
-           class Alloc = allocator<pair<const Key,T> >    // map::allocator_type
+           class Alloc = allocator<pair<const Key,T> >  // map::allocator_type
            > class map;
 ```
 
@@ -556,7 +538,6 @@ count() // return 1 or 0
 
 > TODO add more interface
 
-
 ##### Red-black Tree
 
 C++ map is implemented as a red-black tree.
@@ -570,7 +551,6 @@ In addition to the requirements imposed on a binary search tree the following mu
 3. All leaves (NIL) are black. (All leaves are same color as the root.)
 4. Every red node must have two black child nodes.
 5. Every path from a given node to any of its descendant leaves contains the same number of black nodes.
-
 
 ##### Hash Map (Unordered Map)
 
@@ -612,12 +592,12 @@ std::vector<int> second (4,100);  // four ints with value 100
 
 ##### Methods
 
-* begin(), end()
-* front(), back()
-* clear()
-* size()
-* push_back(const value_type& val)
-* pop_back()
+- begin(), end()
+- front(), back()
+- clear()
+- size()
+- push_back(const value_type& val)
+- pop_back()
 
 #### 1.4.4 List
 
@@ -625,21 +605,20 @@ std::vector<int> second (4,100);  // four ints with value 100
 
 ##### Methods
 
-* begin(), end()
-* front(), back()
-* clear()
-* push_front(const value_type& val)
-* push_back(const value_type& val)
-* pop_front(): remove the first element.
-* pop_back(): remove the last element.
-* remove(const value_type& val): remove all elements of value val.
-* insert(iterator position, const value_type& val)
-* size()
-* reverse()
-* sort(), sort (Compare comp)
-* 
-* resize()
-* reserve()
+- begin(), end()
+- front(), back()
+- clear()
+- push_front(const value_type& val)
+- push_back(const value_type& val)
+- pop_front(): remove the first element.
+- pop_back(): remove the last element.
+- remove(const value_type& val): remove all elements of value val.
+- insert(iterator position, const value_type& val)
+- size()
+- reverse()
+- sort(), sort (Compare comp)
+- resize()
+- reserve()
 
 #### 1.4.5 Queue
 
@@ -1110,9 +1089,9 @@ struct Graph {
             st[i].init(chain[i].len - 2);
         
         for (int i = 0; i < edge.size(); i += 2) {
-        	const Edge& e = edge[i];
+         const Edge& e = edge[i];
 	        int cn1 = chain_no[e.from];
-	        int cn2 = chain_no[e.to];
+         int cn2 = chain_no[e.to];
 
 	        if (cn1 == cn2) {
 	        	int cp1 = chain_pos[e.from];
@@ -3178,7 +3157,7 @@ for (int i = 0; i < sequence.size(); i++) {
 
 ### 3.3 Divide and Conquer
 
-#### 3.3.1 binary search
+#### 3.3.1 Binary search
 
 ### 3.4 Search
 
@@ -3188,11 +3167,9 @@ for (int i = 0; i < sequence.size(); i++) {
 
 #### 3.4.4 迭代加深搜索 (binary increase/decrease)
 
-> placeholder
-
 ### 3.5 Brute Force
 
-#### 3.5.1 子集生成
+#### 3.5.1 Generating subsets
 
 ## 4. String
 
@@ -3525,7 +3502,7 @@ struct Graph {
 
 ### 5.3 Shortest Path
 
-#### 5.3.1 任意两点
+#### 5.3.1 Between any two points
 
 ```
 for (k)
@@ -3618,7 +3595,7 @@ void dijkstra(int s) {
 > 2. A graph is bipartite if and only if it is 2-colorable, (i.e. its chromatic number is less than or equal to 2).
 > 3. The spectrum of a graph is symmetric if and only if it's a bipartite graph.
 
-##### 5.4.1.1 Hungarian algorithm 匈牙利算法
+##### 5.4.1.1 Hungarian algorithm
 
 > O(E * V)
 
@@ -3793,8 +3770,6 @@ int main() {
 
 ##### 5.4.2.1 Blossom Algorithm
 
-[一般图最大匹配](http://www.conlan.cc/2013/03/08/%E4%B8%80%E8%88%AC%E5%9B%BE%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D/)
-
 ```c++
 const int NMax = 230;
 
@@ -3922,7 +3897,7 @@ int main() {
 }
 ```
 
-### 5.5 Maximum Flow Problem 最大流
+### 5.5 Maximum Flow Problem
 
 #### 5.5.1 Dinic
 ```c++
@@ -4037,7 +4012,7 @@ struct Network {
 
 #### 5.5.2 Improved SAP + Gap Optimization
 
-> TODO add more optimizations
+> TODO You can add more optimizations here (can see commented code for that too)
 
 ```c++
 struct Network {
@@ -4242,56 +4217,11 @@ void min_cost_max_flow() {
 
 ### 5.6 强连通分量 图的 割点, 桥, 双连通分支
 
-``https://www.byvoid.com/blog/biconnect``
+Find articulation point (cut vertex) / bridge (cutedge) in directed / undirected graph
 
-> [点连通度与边连通度]
-> 
-> 在一个无向连通图中，如果有一个顶点集合，删除这个顶点集合，以及这个集合中所有顶点相关联的边以后，原图变成多个连通块，就称这个点集为割点集合。一个图的点连通度的定义为，最小割点集合中的顶点数。
-> 
-> 类似的，如果有一个边集合，删除这个边集合以后，原图变成多个连通块，就称这个点集为割边集合。一个图的边连通度的定义为，最小割边集合中的边数。
-> 
-> [双连通图、割点与桥]
-> 
-> 如果一个无向连通图的点连通度大于1，则称该图是点双连通的(point biconnected)，简称双连通或重连通。一个图有割点，当且仅当这个图的点连通度为1，则割点集合的唯一元素被称为割点(cut point)，又叫关节点(articulation point)。
-> 
-> 如果一个无向连通图的边连通度大于1，则称该图是边双连通的(edge biconnected)，简称双连通或重连通。一个图有桥，当且仅当这个图的边连通度为1，则割边集合的唯一元素被称为桥(bridge)，又叫关节边(articulation edge)。
-> 
-> 可以看出，点双连通与边双连通都可以简称为双连通，它们之间是有着某种联系的，下文中提到的双连通，均既可指点双连通，又可指边双连通。
-> 
-> [双连通分支]
-> 
-> 在图G的所有子图G'中，如果G'是双连通的，则称G'为双连通子图。如果一个双连通子图G'它不是任何一个双连通子图的真子集，则G'为极大双连通子图。双连通分支(biconnected component)，或重连通分支，就是图的极大双连通子图。特殊的，点双连通分支又叫做块。
-> 
-> [求割点与桥]
-> 
-> 该算法是R.Tarjan发明的。对图深度优先搜索，定义DFS(u)为u在搜索树（以下简称为树）中被遍历到的次序号。定义Low(u)为u或u的子树中能通过非父子边追溯到的最早的节点，即DFS序号最小的节点。根据定义，则有：
-> 
-> Low(u)=Min { DFS(u) DFS(v) (u,v)为后向边(返祖边) 等价于 DFS(v)<DFS(u)且v不为u的父亲节点 Low(v) (u,v)为树枝边(父子边) }
-> 
-> 一个顶点u是割点，当且仅当满足(1)或(2) (1) u为树根，且u有多于一个子树。 (2) u不为树根，且满足存在(u,v)为树枝边(或称父子边，即u为v在搜索树中的父亲)，使得DFS(u)<=Low(v)。
-> 
-> 一条无向边(u,v)是桥，当且仅当(u,v)为树枝边，且满足DFS(u)<Low(v)。
-> 
-> [求双连通分支]
-> 
-> 下面要分开讨论点双连通分支与边双连通分支的求法。
-> 
-> 对于点双连通分支，实际上在求割点的过程中就能顺便把每个点双连通分支求出。建立一个栈，存储当前双连通分支，在搜索图时，每找到一条树枝边或后向边(非横叉边)，就把这条边加入栈中。如果遇到某时满足DFS(u)<=Low(v)，说明u是一个割点，同时把边从栈顶一个个取出，直到遇到了边(u,v)，取出的这些边与其关联的点，组成一个点双连通分支。割点可以属于多个点双连通分支，其余点和每条边只属于且属于一个点双连通分支。
-> 
-> 对于边双连通分支，求法更为简单。只需在求出所有的桥以后，把桥边删除，原图变成了多个连通块，则每个连通块就是一个边双连通分支。桥不属于任何一个边双连通分支，其余的边和每个顶点都属于且只属于一个边双连通分支。
-> 
-> [构造双连通图]
-> 
-> 一个有桥的连通图，如何把它通过加边变成边双连通图？方法为首先求出所有的桥，然后删除这些桥边，剩下的每个连通块都是一个双连通子图。把每个双连通子图收缩为一个顶点，再把桥边加回来，最后的这个图一定是一棵树，边连通度为1。
-> 
-> 统计出树中度为1的节点的个数，即为叶节点的个数，记为leaf。则至少在树上添加(leaf+1)/2条边，就能使树达到边二连通，所以至少添加的边数就是(leaf+1)/2。具体方法为，首先把两个最近公共祖先最远的两个叶节点之间连接一条边，这样可以把这两个点到祖先的路径上所有点收缩到一起，因为一个形成的环一定是双连通的。然后再找两个最近公共祖先最远的两个叶节点，这样一对一对找完，恰好是(leaf+1)/2次，把所有点收缩到了一起。
+Find and merge biconnected component in undirected graph
 
-find articulation point (cut vertex) / bridge (cutedge) in directed / undirected graph
-
-find and merge biconnected component in undirected graph
-
-find and merge strongly connected component in directed graph
-
+Find and merge strongly connected component in directed graph
 
 time complexity `O(E+V)`
 
@@ -4371,7 +4301,7 @@ void dfs(int cur) {
         else if (in_stack[next])
             smallest_order_can_reach[cur] = min(smallest_order_can_reach[cur], visit_order[next]);
     }
-    
+
     if (visit_order[cur] == smallest_order_can_reach[cur]) {
         // because visit_order[cur] == smallest_order_can_reach[cur]
         // and visit_order[cur] > visit_order[parent[cur]]
@@ -4407,7 +4337,7 @@ int main() {
 }
 ```
 
-### 5.7 Topological Sort / 拓扑排序
+### 5.7 Topological Sort
 
 > Topological Sorting on Directed Acyclic Graph (DAG)
 >
@@ -4446,10 +4376,10 @@ struct Graph {
     	printf("\n");
     }
 
-    // 
+    //
 	// Node index ~ [0, N)
 	// matters for topological sort
-	// 
+	//
     int in_order[MAXNODE];
     void init_in_order() {
     	fill_n(in_order, n + 1, 0);
@@ -4482,7 +4412,6 @@ struct Graph {
 };
 ```
 
-
 ### 5.8 Euler Cycle/Path, Hamilton Cycle/Path
 
 > place holder
@@ -4490,7 +4419,6 @@ struct Graph {
 ### 5.9 find negative (weight) Cycle on a graph
 
 > place holder
-
 
 ## 6. Number + Mathematics
 
@@ -4664,8 +4592,7 @@ ASSERT(a.ll() == 2)
 ASSERT(b.ll() == 9999)
 ```
 
-
-#### 6.1.2 The Java Approach 
+#### 6.1.2 The Java Approach
 
 BigInteger & BigDecimal
 
@@ -4738,9 +4665,9 @@ Matrix Matrix::mirror() {
 
 ### 6.3 Number Theory
 
-#### 6.3.1 欧拉函数 ?
+#### 6.3.1 Euler Function
 
-#### 6.3.2 欧几里得算法 / gcd
+#### 6.3.2 Euclid Algorithm / gcd
 
 ```c++
 int gcd(int a, int b) {
@@ -4748,49 +4675,32 @@ int gcd(int a, int b) {
 }
 
 int lcm(int a, int b) {
-   if(gcd(a,b)>0){ 
-   	return (a / gcd(a, b)) * b;
+   if(gcd(a,b)>0){
+    return (a / gcd(a, b)) * b;
    }
    return 0;
-   
+
 }
 ```
 
-#### 6.3.3 扩展欧几里得算法 
+#### 6.3.3 Extended Euclidean Algorithm
 
-``http://www.cnblogs.com/frog112111/archive/2012/08/19/2646012.html``
-
-> 对于不完全为 0 的非负整数 a, b, 必然存在整数对 (x, y), 使得 gcd(a, b) = ax + by
-
+> For non-negative integers a, b that are not completely 0, there must be an integer pair (x, y) such that gcd(a, b) = ax + by
 > suppose: a > b, we want to get (x1, y1)
-
 > (i) if b == 0, then gcd(a, b) = a = ax + 0, then x1 = 1, y1 = 0
-
 > (ii) if b != 0:
-
->   (1): a * x1 + b * y1 = gcd(a, b)
-
->   (2): b * x2 + (a % b) * y2 = gcd(b, a % b)
-    
->   (1) == (2)
-
->   so: a * x1 + b * y1 = b * x2 + (a % b) * y2
-    
->   so: a * x1 + b * y1 = b * x2 + (a - (int)(a / b) * b) * y2
-    
->   so: a * x1 + b * y1 = a * y2 + b * (x2 - (int)(a / b) * y2)
-    
->   so: x1 = y2, y1 = x2 - (int)(a / b) * y2, can get (x1, y1) from (x2, y2)
-
->   next:
-
->       (1): b * x2 + (a % b) * y2 = gcd(b, a % b)
-        
->       (2): (a % b) * x3 + b % (a % b) * y3 = gcd(a % b, b % (a % b))
-        
->       so: can get (x2, y2) from (x3, y3)
-        
->       next: ... until in gcd(a, b), b == 0, then xi = 1, yi = 0, go back ...
+> (1): a * x1 + b * y1 = gcd(a, b)
+> (2): b * x2 + (a % b) * y2 = gcd(b, a % b)
+> (1) == (2)
+> so: a * x1 + b * y1 = b * x2 + (a % b) * y2
+> so: a * x1 + b * y1 = b * x2 + (a - (int)(a / b) * b) * y2
+> so: a * x1 + b * y1 = a * y2 + b * (x2 - (int)(a / b) * y2)
+> so: x1 = y2, y1 = x2 - (int)(a / b) * y2, can get (x1, y1) from (x2, y2)
+> next:
+>   (1): b * x2 + (a % b) * y2 = gcd(b, a % b)
+>   (2): (a % b) * x3 + b % (a % b) * y3 = gcd(a % b, b % (a % b))
+>   so: can get (x2, y2) from (x3, y3)
+>   next: ... until in gcd(a, b), b == 0, then xi = 1, yi = 0, go back ...
 
 ```C++
 long long ansx, ansy, ansd;
@@ -4822,26 +4732,16 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-#### 6.3.4 求解不定方程
+#### 6.3.4 Solve indefinite Equations
 
 > for: p * a + q * b = c
-
 > if c % gcd(a, b) == 0, then 有整数解 (p, q), else NO
-
-
 > if we get (p0, q0) for p0 * a + q0 * b = gcd(a, b)
-
 > then: for p * a + q * b = gcd(a, b) (k is any integer)
-
 > p = p0 + b / gcd(a, b) * k
-
 > q = q0 - a / gcd(a, b) * k
-
-
 > then: for p * a + q * b = c = c / gcd(a, b) * gcd(a, b) (k is any integer)
-
 > p = (p0 + b / gcd(a, b) * k) * c / gcd(a, b)
-
 > q = (q0 - a / gcd(a, b) * k) * c / gcd(a, b)
 
 ```C++
@@ -4852,33 +4752,24 @@ int main(int argc, char const *argv[]) {
 // smallest: ansx % (b / gcd(a, b) + b / gcd(a, b)) % (b / gcd(a, b))
 ```
 
-#### 6.3.5 求解模线性方程（线性同余方程）
+#### 6.3.5 Solve Modular Linear Equations (Linear congruence equation)
 
 > (a * x) % n = b % n, x = ?
-
 > same as: a * x + n * y= b
-
 > so: one answer for a * x + n * y= b is: x * b / gcd(a, n)
-
 > so: one answer for (a * x) % n = b % n is: x0 = (x * b / gcd(a, n)) % n
-
 > other answer xi = (x0 + i * (n / gcd(a, n))) % n, i = 0...gcd(a, n)-1
-
 > smallest answer is x0 % (n / gcd(a, n) + gcd(a, n)) % gcd(a, n)
 
 ```C++
 ```
 
-#### 6.3.6 求解模的逆元
+#### 6.3.6 Solve the inverse element of the module
 
 > (a * x) % n = 1, x = ?
-
 > if gcd(a, n) != 1, then NO answer
-
 > else:
-
 > same as: a * x + n * y = 1
-
 > can get only one answer x
 
 ```C++
@@ -4887,15 +4778,9 @@ int main(int argc, char const *argv[]) {
 // smallest ansx = (ansx % (n / gcd(a, n)) + (n / gcd(a, n))) % (n / gcd(a, n))
 ```
 
-#### 6.3.7 中国剩余定理
+#### 6.3.7 Chinese remainder theorem
 
-#### 6.3.8 最小公倍数
-
-```C++
-a / gcd(a, b) * b
-```
-
-#### 6.3.9 分解质因数
+#### 6.3.8 Decompose prime factors
 
 ```C++
 long long x;
@@ -4908,16 +4793,16 @@ for (long long factor = 2; x != 1; factor++) {
 }
 ```
 
-#### 6.3.10 因数个数
+#### 6.3.9 Number of factors
 
 ```C++
 n = p1 ^ x1 * p2 ^ x2 * ... * pn ^ xn
 total = (x1 + 1) * (x2 + 1) * ... * (xn + 1)
 ```
 
-#### 6.3.11 素数判定
+#### 6.3.10 Prime number judgment
 
-> 大于 3 的质数可以被表示为 6n - 1 或 6n + 1
+> Prime numbers greater than 3 can be expressed as 6n-1 or 6n + 1
 
 ```C++
 // A prime number greater than 3 can be written in the form 6n - 1 or 6n + 1 
@@ -4941,7 +4826,7 @@ bool is_prime(int n) {
 }
 ```
 
-##### 6.3.11.1 Miller Rabin Primality Test
+##### 6.3.10.1 Miller Rabin Primality Test
 
 > O(k(logN)^3)
 
@@ -5012,7 +4897,7 @@ public:
 };
 ```
 
-#### 6.3.12.1 进制转换
+#### 6.3.11.1 进制转换
 
 ```C++
 void convert_dec_to_base(int n, const int base) {
@@ -5032,7 +4917,7 @@ int convert_base_to_dec(const int s[], const int len, const int base) {
     return result;
 }
 ```
-#### 6.3.12.2 
+#### 6.3.12.2 Base conversion
 
 #### 6.3.13 A / C
 
@@ -5054,7 +4939,7 @@ void init_choose_n_k() {
 }
 ```
 
-#### 6.3.14 质数表
+#### 6.3.14 Prime Number Table
 
 ```C++
 int is_prime[UP_LIMIT + 1];
@@ -5087,9 +4972,7 @@ int power_modulo(int n, int p, int M) {
 
 #### 6.3.16 Fast Fourier Transform FFT
 
-> [Reference 1](www.gatevin.moe/acm/fft算法学习笔记/)
-> 
-> [Reference 2](https://github.com/marioyc/ACM-ICPC-Library/blob/master/math/fft.cpp)
+> [Reference](https://github.com/marioyc/ACM-ICPC-Library/blob/master/math/fft.cpp)
 > 
 > Example: calculate two number C = A * B
 
@@ -5208,7 +5091,7 @@ int main() { // multiply two number
 }
 ```
 
-### 6.4 Game Theory 博弈论
+### 6.4 Game Theory
 
 #### 6.4.1 Impartial Combinatorial Game
 
@@ -5260,7 +5143,7 @@ bool appear[MAXSTATE];
 int sg[MAXSTATE]; // Sprague-Grundy // Nim Value
 void init_sg() {
 	sg[state] = 0;
-	for (int state = 1; state < MAXSTATE; state++) { // sg(x) = mex{sg(y) | y是x的后继局面} // mex{a[i]}表示a中未出现的最小非负整数
+	for (int state = 1; state < MAXSTATE; state++) {
 		fill_n(appear, MAXSTATE, false);
 		for (int nx = 0; nx < state; nx++)
 			appear[sg[nx]] = true;
@@ -5387,7 +5270,7 @@ struct point {
 };
 ```
 
-#### 7.1.2 向量点乘 叉乘
+#### 7.1.2 Vector dot product cross product
 
 > a = (x1, y1)
 > 
@@ -5415,7 +5298,7 @@ struct point {
 > 
 > a x b x c = area of 平行六面体, c = (x3, y3)
 
-#### 7.1.5 直线公式
+#### 7.1.5 Straight Line Formula
 
 > (x, y) = (x1, y1) + k * ((x2, y2) - (x1, y1))
 
@@ -5599,7 +5482,7 @@ void reverse_cantor_expansion(int n, long long m) {
 }
 ```
 
-### 8.2 pass 2-D array
+### 8.2 Pass 2-D array
 
 ```c++
 // The parameter is a 2D array
@@ -5646,17 +5529,17 @@ void show_binary(unsigned long long x) {
 
 ```c++
 int fastlog(unsigned long long x, unsigned long long base) {
-	// ERROR VALUE IF X == BASE == ULLONG_MAX
+ // ERROR VALUE IF X == BASE == ULLONG_MAX
 
-	const unsigned long long HALF = 1ULL << 32;
-	unsigned long long cache[7];
+ const unsigned long long HALF = 1ULL << 32;
+ unsigned long long cache[7];
 #define INIT(i) { cache[i] = base; if (base < HALF) base *= base; else base = ULLONG_MAX; }
-	INIT(0); INIT(1); INIT(2); INIT(3); INIT(4); INIT(5); INIT(6);
+ INIT(0); INIT(1); INIT(2); INIT(3); INIT(4); INIT(5); INIT(6);
 #undef INIT
 
-	int ret = -(x == 0);
+ int ret = -(x == 0);
 #define S(i, k) if (x >= cache[i]) ret += k, x /= cache[i]; else return ret;
-	S(6, 64); S(5, 32); S(4, 16); S(3, 8); S(2, 4); S(1, 2); S(0, 1); 
+ S(6, 64); S(5, 32); S(4, 16); S(3, 8); S(2, 4); S(1, 2); S(0, 1);
 #undef S
 }
 ```

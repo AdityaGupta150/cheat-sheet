@@ -12,7 +12,7 @@ int main() {
          << ", whose length is " << a.length() << endl;
 
     char b[10];
-    gets(b);
+    fgets(b, 10, stdin);
     cout << "[C] You have input \"" << b << "\", "
          << ", whose length is " << strlen(b) << endl;
 
